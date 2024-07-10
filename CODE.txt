@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Jewelry Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content {
+            margin-top: 20px;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luxury Jewelry Store</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="content">
+            <h2>Welcome to our Luxury Jewelry Store</h2>
+            <p>Explore our exquisite collection of luxury jewelry crafted with precision and elegance.</p>
+            <p><a href="#shop">Browse Our Collection</a></p>
+        </section>
+        <section id="about" class="content">
+            <h2>About Our Store</h2>
+            <p>We specialize in sourcing and offering the finest luxury jewelry pieces from around the world.</p>
+            <p>Contact us to learn more about our story and dedication to quality.</p>
+        </section>
+        <section id="shop" class="content">
+            <h2>Shop Our Collection</h2>
+            <p>Discover our curated selection of luxury jewelry items.</p>
+            <p><a href="link-to-your-selling-page">Visit our Shop</a></p>
+        </section>
+        <section id="contact" class="content">
+            <h2>Buy Now</h2>
+            <p>Fill out the form below to express your interest in purchasing our luxury jewelry.</p>
+            <form action="link-to-your-google-form" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" 
